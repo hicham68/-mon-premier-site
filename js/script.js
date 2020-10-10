@@ -1,0 +1,1 @@
+{/* <a href="javascript:;"  onMouseOver="js.i.src='image2.gif';" onMouseOut="document.img_1.src='image1.gif';"><img name="mobbb" src="image1.gif"> </a> */}

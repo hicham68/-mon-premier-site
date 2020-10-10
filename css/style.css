@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'fontsy';
+    src: url('./fonts/Oxanium-Bold.ttf') format('ttf');      
+}
+body{
+    /* gdghdhgdhgdfhyd
+    fhfytfytfytfytf */
+
+    background: url("../image/low_poly_background.jpg") fixed no-repeat ;
+}
+p{
+    color: white;
+    font-family:'fontsy';
+}

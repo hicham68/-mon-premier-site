@@ -1,0 +1,67 @@
+html,
+body {
+  margin: 5px;
+ 
+}
+p
+{
+    /* font-family: "Arial Black"; */
+    font-style: italic;
+    font-weight: normal;
+    text-decoration: underline;
+    text-shadow: 6px 6px 10px red;
+}
+h1 
+{  
+  text-align: center ;
+  border:3px red groove ;
+  border-radius: 20px / 10px;
+  box-shadow: 8px 8px 12px black;
+  width: 350px;
+  text-shadow:3px 5px 2px black;
+}
+/* @font-face {
+  font-family: 'fontsy';
+  src: url('./fonts/Oxanium-Bold.ttf') format('ttf');      
+}
+
+p{
+  color: white;
+  font-family:'fontsy';
+} */
+#canvas-pattern {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 30px;
+  height: 30px;
+}
+#menu1 {
+  color: silver;
+  background-color:rgb(52, 131, 250);
+}
+.menuclass{
+  max-width: 70%;
+  border: darkblue dashed;
+  background-color: cyan;
+}
+.imageflottante
+{
+  float: left;
+}
+.dessous
+{
+  clear: both;
+}
+#pflottante
+{
+  /* background-color: darkorange; */
+  width: 300px; 
+
+}
+mark {
+  background-color: rgb(223, 94, 205);
+  
+  
+}
