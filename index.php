@@ -1,4 +1,4 @@
-<?php
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,13 +14,13 @@
     <p><em> hello la <strong>famille</strong></em></p>
     <p id="pflottante"> <img src="./image/mobbbmini.jpg" class="imageflottante" alt="flottant"/> nous vendons kjbghhhh <mark>dgdgdgdgdgd</mark> hhh hhh hhhhhh hhhhhh
     
-    <p class="dessous">dssssstsstttttsssssssssssssssssssssssssss</p>
+    <p class="dessous"><?php echo 4+5 ?></p>
       
             <ul>
                 <li>Milk</li>
                 <li>Cheese
                     <ul>
-                        <li>Blue cheese</li>
+                       <li>Blue cheese</li>
                         <li>Feta</li>
                     </ul>
                 </li>
@@ -33,7 +33,7 @@
     <p> Bonjour nous vendons :<br/>
 
         
-            C'est un petit pas pour l'homme, mais un bond de géant pour l'humanité.
+            C'est un petit pas pour <span style=" color: yellow;" id="homme" > l'homme </span>, mais un bond de géant pour l'humanité.
       
             <ul>
                 <li>Milk</li>
@@ -100,6 +100,7 @@
 </body>
 </html>
 
+?>
 
 
 

@@ -5,10 +5,47 @@
 body{
     /* gdghdhgdhgdfhyd
     fhfytfytfytfytf */
-
-    background: url("../image/low_poly_background.jpg") fixed no-repeat ;
+    /* text-align: center; */
+    background: url("../image/background.gif") fixed no-repeat ;
+    background-size: 100%;
 }
 p{
     color: white;
     font-family:'fontsy';
+}
+#allpage{
+    background-color: rgba(255, 255, 255, 0.7);
+    margin: auto;
+    border-radius: 20px / 10px;
+    width: 60%;
+    /* text-align: center; */
+}
+.marge{
+    width: 20%;
+}
+#part2{
+    
+    display: flex;
+}
+
+.border{
+    /* border: solid 2px red; */
+}
+h1 
+{  
+  text-align: center ;
+  border:3px red groove ;
+  border-radius: 20px / 10px;
+  box-shadow: 8px 8px 12px black;
+  /* width: 350px; */
+  text-shadow:3px 5px 2px black;
+}
+
+ul{ text-align:center;width:450px magin:0 auto}<br>
+li{ display:inline;padding:15px}
+#divimageprofil{
+    text-align: center;
+}
+ol{
+    margin-bottom: 0px;
 }

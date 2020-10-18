@@ -11,15 +11,7 @@ p
     text-decoration: underline;
     text-shadow: 6px 6px 10px red;
 }
-h1 
-{  
-  text-align: center ;
-  border:3px red groove ;
-  border-radius: 20px / 10px;
-  box-shadow: 8px 8px 12px black;
-  width: 350px;
-  text-shadow:3px 5px 2px black;
-}
+
 /* @font-face {
   font-family: 'fontsy';
   src: url('./fonts/Oxanium-Bold.ttf') format('ttf');      
@@ -62,6 +54,16 @@ p{
 }
 mark {
   background-color: rgb(223, 94, 205);
-  
-  
+}
+#homme {
+  color: blue;
+  font-size: 40% ;
+}
+#homme:hover {
+  color: blue;
+  font-size: 400px ;
+}
+.Dio{
+  width: 150px;
+  height: 150px;
 }
